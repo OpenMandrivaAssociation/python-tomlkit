@@ -1,5 +1,5 @@
 Name:		python-tomlkit
-Version:	0.12.3
+Version:	0.12.4
 Release:	1
 Source0:	https://files.pythonhosted.org/packages/source/t/tomlkit/tomlkit-%{version}.tar.gz
 Summary:	Style preserving TOML library
