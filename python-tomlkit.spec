@@ -2,7 +2,7 @@
 %bcond tests 1
 
 Name:		python-tomlkit
-Version:	0.15.0
+Version:	0.15.1
 Release:	1
 Summary:	Style preserving TOML library
 License:	MIT
