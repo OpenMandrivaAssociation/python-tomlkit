@@ -1,9 +1,10 @@
 %define module tomlkit
-%bcond tests 1
+# pytest and pyyaml are not rebuilt for this Python yet.
+%bcond tests 0
 
 Name:		python-tomlkit
 Version:	0.15.1
-Release:	1
+Release:	2
 Summary:	Style preserving TOML library
 License:	MIT
 Group:		Development/Python
