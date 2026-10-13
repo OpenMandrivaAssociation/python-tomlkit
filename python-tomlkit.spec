@@ -4,7 +4,7 @@
 
 Name:		python-tomlkit
 Version:	0.15.1
-Release:	2
+Release:	3
 Summary:	Style preserving TOML library
 License:	MIT
 Group:		Development/Python
@@ -13,6 +13,7 @@ Source0:	https://files.pythonhosted.org/packages/source/t/%{module}/%{module}-%{
 BuildSystem:	python
 BuildArch:	noarch
 
+BuildRequires:	pkgconfig(python3)
 BuildRequires:	python%{pyver}dist(pip)
 BuildRequires:	python%{pyver}dist(wheel)
 BuildRequires:	python%{pyver}dist(poetry-core)
